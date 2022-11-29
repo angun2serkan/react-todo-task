@@ -1,0 +1,32 @@
+.todo__form {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo__input__text {
+  width: 28rem;
+  height: 3rem;
+  padding-right: 50px;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  padding-inline-start: 1rem;
+  border: none;
+}
+
+.todo__input__submit {
+  align-self: center;
+  margin-inline-start: -5.4rem;
+  height: 2.6rem;
+  width: 5rem;
+  border-radius: 0.4rem;
+  background: #2d70fd;
+  color: white;
+  border: 0;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.todo__input__submit:hover {
+  background: green;
+  cursor: pointer;
+}

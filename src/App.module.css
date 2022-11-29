@@ -1,0 +1,58 @@
+.app {
+  margin-inline: 15%;
+  margin-block-start: 5rem;
+}
+
+.done > .title {
+  text-decoration: line-through;
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-inline-start: 0.5rem;
+}
+
+.undone > .title {
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-inline-start: 0.5rem;
+}
+ul {
+  margin-block-start: 4rem;
+  margin-block-end: 8rem;
+  margin-inline-start: 2rem;
+}
+
+ul > li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 28rem;
+  cursor: pointer;
+}
+
+ul > li:hover {
+  color: #2d70fd;
+}
+
+.todo__item {
+  cursor: pointer;
+  width: fit-content;
+}
+
+ul > li > span.title {
+  margin-right: auto;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-inline-start: 0.5rem;
+}
+
+a.delete {
+  color: black;
+  margin-right: 0.3rem;
+  text-decoration: none;
+}
+
+a.delete:hover {
+  color: red;
+}

@@ -1,0 +1,25 @@
+.footer__line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 1.5rem;
+}
+
+.footer__line__left {
+  color: #b1bacb;
+  font-size: 1.5rem;
+}
+
+.footer__line__right > button {
+  border: none;
+  background: #fff;
+  color: #b1bacb;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.footer__line__right > button:hover {
+  background: #b1bacb;
+  border-radius: 0.8rem;
+  color: white;
+}
